@@ -3,7 +3,7 @@ provider "packet" {
 }
 
 locals {
-  project_id = "719d9c64-7c63-48cd-8068-0db37a3266b3"
+  project_id = var.project_id
 }
 
 resource "packet_device" "web1" {
