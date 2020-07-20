@@ -1,6 +1,7 @@
 # packet-terraform-deploy
 
-Export your API Token `export TOKEN=<Packet API Token>`
+Create a variables.tf using the variables_template.tf
+- Replace `<Packet API Token>` and `<Project ID>` with the updated values.
 
 Perform the following commands:
 ```
