@@ -5,6 +5,6 @@ Create a variables.tf using the variables_template.tf
 
 Perform the following commands:
 ```
-terraform plan -var "auth_token=$TOKEN"
+terraform plan
 terraform apply
 ```
