@@ -1,0 +1,2 @@
+#cloud-config
+echo I AM SERVER >> /etc/motd
